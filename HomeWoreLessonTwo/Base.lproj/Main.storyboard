@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view multipleTouchEnabled="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="400" translatesAutoresizingMaskIntoConstraints="NO" id="vph-wq-6Lv">
-                                <rect key="frame" x="20" y="462" width="374" height="400"/>
+                                <rect key="frame" x="20" y="472" width="374" height="390"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
                             <view multipleTouchEnabled="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="400" translatesAutoresizingMaskIntoConstraints="NO" id="dR4-UK-pIz">
-                                <rect key="frame" x="20" y="44" width="374" height="400"/>
+                                <rect key="frame" x="20" y="64" width="374" height="390"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
@@ -30,14 +30,15 @@
                         <constraints>
                             <constraint firstItem="dR4-UK-pIz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4Ci-VF-Ksp"/>
                             <constraint firstItem="vph-wq-6Lv" firstAttribute="top" secondItem="dR4-UK-pIz" secondAttribute="bottom" constant="18" id="ADK-UT-rBc"/>
-                            <constraint firstItem="dR4-UK-pIz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ey4-sv-J4H"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vph-wq-6Lv" secondAttribute="bottom" id="Rl2-Wy-gH9"/>
+                            <constraint firstItem="vph-wq-6Lv" firstAttribute="width" secondItem="dR4-UK-pIz" secondAttribute="width" id="Shw-lv-8rd"/>
                             <constraint firstItem="dR4-UK-pIz" firstAttribute="height" secondItem="vph-wq-6Lv" secondAttribute="height" id="WJb-50-U4R"/>
                             <constraint firstItem="dR4-UK-pIz" firstAttribute="width" secondItem="vph-wq-6Lv" secondAttribute="width" id="bfO-ja-Fri"/>
                             <constraint firstItem="vph-wq-6Lv" firstAttribute="centerX" secondItem="dR4-UK-pIz" secondAttribute="centerX" id="fzH-Jd-m1E"/>
                             <constraint firstItem="dR4-UK-pIz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="imz-L1-u3g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dR4-UK-pIz" secondAttribute="trailing" constant="20" id="qEp-84-SPJ"/>
                             <constraint firstItem="vph-wq-6Lv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uvG-cm-IBb"/>
+                            <constraint firstItem="dR4-UK-pIz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="w0s-GZ-fw6"/>
                             <constraint firstItem="dR4-UK-pIz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yPN-5X-FBg"/>
                         </constraints>
                     </view>
